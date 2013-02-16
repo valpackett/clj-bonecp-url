@@ -8,4 +8,7 @@
                  [org.slf4j/slf4j-api "1.7.2"]]
   :profiles {:dev {:dependencies [[org.slf4j/slf4j-nop "1.7.2"]
                                   [postgresql "9.1-901-1.jdbc4"]
-                                  [org.clojure/java.jdbc "0.2.3"]]}})
+                                  [org.clojure/java.jdbc "0.2.3"]]}}
+  :lein-release {:deploy-via :lein-deploy}
+  :repositories [["snapshots" {:url "https://clojars.org/repo" :creds :gpg}]
+                 ["releases"  {:url "https://clojars.org/repo" :creds :gpg}]])
