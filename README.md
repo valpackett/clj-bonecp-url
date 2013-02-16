@@ -12,7 +12,17 @@ Works with Heroku Postgres, even remotely (ie. doesn't lose SSL parameters from 
 
 ## Usage
 
-eg. with [Korma](http://sqlkorma.com):
+**NOTE:** you need to have an implementation of [slf4j](http://www.slf4j.org/) in your dependencies in addition to clj-bonecp-url itself.
+
+If you don't care about logging:
+
+```clojure
+[org.slf4j/slf4j-nop "1.7.2"]
+```
+
+### Actual usage
+
+Use it with [Korma](http://sqlkorma.com):
 
 ```clojure
 (ns your.app
@@ -26,6 +36,8 @@ eg. with [Korma](http://sqlkorma.com):
 
 (when (nil? @korma.db/_default)
   (korma.db/default-connection {:pool {:datasource datasource}}))
+
+; defentity, etc.
 ```
 
 or plain old java.jdbc:
