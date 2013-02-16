@@ -1,4 +1,4 @@
-(defproject clj-bonecp-url "0.1.0-SNAPSHOT"
+(defproject clj-bonecp-url "0.1.0"
   :description "Create BoneCP JDBC connection pools from URLs"
   :url "https://github.com/myfreweeb/clj-bonecp-url"
   :license {:name "Eclipse Public License"
