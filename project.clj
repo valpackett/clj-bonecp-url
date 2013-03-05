@@ -1,6 +1,6 @@
 (defproject clj-bonecp-url "0.1.1-SNAPSHOT"
   :description "Create BoneCP JDBC connection pools from URLs"
-  :url "https://github.com/myfreweeb/clj-bonecp-url"
+  :url "https://github.com/myfreeweb/clj-bonecp-url"
   :license {:name "Eclipse Public License"
             :url "http://www.eclipse.org/legal/epl-v10.html"}
   :dependencies [[org.clojure/clojure "1.4.0"]
