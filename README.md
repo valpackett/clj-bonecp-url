@@ -1,8 +1,6 @@
 Current [semantic](http://semver.org/) version:
 
-```clojure
-[clj-bonecp-url "0.1.0"]
-```
+[![clojars version](https://clojars.org/clj-bonecp-url/latest-version.svg?raw=true)](https://clojars.org/clj-bonecp-url)
 
 # clj-bonecp-url
 
